@@ -28,10 +28,11 @@ h2 {
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
   display: block;
   line-height:2em;
   padding-bottom: 2em;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 h6 {
@@ -76,6 +77,7 @@ ul {
 
 .list {
   padding-left: 10%;
+  list-style-type: square;
 }
 
 .container td {
@@ -183,9 +185,12 @@ ul {
 
 
 .thestorelogos {
-        margin: 0px auto;
-    display: outside   ;
-    }
+    
+    display: outside;
+    padding-left: 20%; 
+  }
+
+
 
     /* Add a black background color to the top navigation */
 .topnav {
@@ -225,4 +230,12 @@ ul {
       text-align: center;
       font-family: 'Peddana', serif;
       font-size: 25px;
+  }
+
+  hr{
+    border-radius: 5px;
+    height: 2px;
+    background-color: rgb(32, 144, 178);
+    margin-top: 50px;
+    width: 80%;
   }
