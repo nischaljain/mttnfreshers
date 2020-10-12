@@ -190,7 +190,21 @@ ul {
     padding-left: 20%; 
   }
 
+.topnav-right{
+  
+  width: 40%;
+  background-color: #ffffff;
+  overflow: hidden;
+  text-align: right;
+  
+}
 
+.topnav-right a{
+ float: right;
+ color: black;
+ text-align: right;
+  
+}
 
     /* Add a black background color to the top navigation */
 .topnav {
@@ -211,6 +225,7 @@ ul {
     opacity: 0.7;
     
     
+    
   }
 
 
@@ -219,17 +234,23 @@ ul {
     opacity: 1;
     color: rgb(2, 209, 157);
   }
+
+ 
+
   
+
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #4CAF50;
     color: white;
   }
   
+  
   .topnav p {
       text-align: center;
       font-family: 'Peddana', serif;
       font-size: 25px;
+      color: rgb(255, 255, 255);
   }
 
   hr{
@@ -239,3 +260,52 @@ ul {
     margin-top: 50px;
     width: 80%;
   }
+  
+  /* styling navlist */ 
+  #navlist { 
+    background-color: #000000; 
+    position: absolute; 
+    width: 100%; 
+    height: 60px;
+    text-align: left;
+    
+    overflow: hidden;
+} 
+       
+/* styling navlist anchor element */ 
+#navlist a { 
+    position: fixed;
+    display: inline-block; 
+    color: #f2f2f2; 
+    
+    padding: 15px 0px 0px 0px; 
+    text-decoration: none; 
+    font-size: 15px; 
+    opacity: 0.5;
+} 
+#navlist p{
+  
+  background-color: black;
+  
+  position: relative;
+  display: inline;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  padding: 0px 500px;
+  
+}
+.navlist-right{ 
+    float: right;
+    color: white;
+    width:5%;
+    
+    display: inline;
+} 
+
+/* hover effect of navlist anchor element */ 
+#navlist a:hover { 
+    
+    opacity: 1;
+} 
