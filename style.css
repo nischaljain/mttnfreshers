@@ -64,7 +64,7 @@ ul {
 .blue { color: #ffffff; }
 .yellow { 
     color: #ffffff; 
-    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
@@ -190,122 +190,57 @@ ul {
     padding-left: 20%; 
   }
 
-.topnav-right{
-  
-  width: 40%;
-  background-color: #ffffff;
-  overflow: hidden;
-  text-align: right;
-  
-}
-
-.topnav-right a{
- float: right;
- color: black;
- text-align: right;
-  
-}
-
-    /* Add a black background color to the top navigation */
-.topnav {
-    width: 100%;
-    background-color: #000000;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    position: fixed;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    opacity: 0.7;
-    
-    
-    
-  }
 
 
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    opacity: 1;
-    color: rgb(2, 209, 157);
-  }
-
- 
-
-  
-
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  
-  .topnav p {
-      text-align: center;
-      font-family: 'Peddana', serif;
-      font-size: 25px;
-      color: rgb(255, 255, 255);
-  }
-
-  hr{
-    border-radius: 5px;
-    height: 2px;
-    background-color: rgb(32, 144, 178);
-    margin-top: 50px;
-    width: 80%;
-  }
-  
-  /* styling navlist */ 
-  #navlist { 
-    background-color: #000000; 
-    position: absolute; 
-    width: 100%; 
-    height: 60px;
-    text-align: left;
-    
-    overflow: hidden;
-} 
-       
-/* styling navlist anchor element */ 
-#navlist a { 
-    position: fixed;
-    display: inline-block; 
-    color: #f2f2f2; 
-    
-    padding: 15px 0px 0px 0px; 
-    text-decoration: none; 
-    font-size: 15px; 
-    opacity: 0.5;
-} 
-#navlist p{
-  
+nav {
+  width: 100%;
   background-color: black;
-  
-  position: relative;
-  display: inline;
-  font-size: 20px;
-  font-weight: lighter;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  padding: 0px 500px;
+  margin: 0;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 3px 0px 0px 0px;
+  margin-right:0px;
+  text-align: center;
   
 }
-.navlist-right{ 
-    float: right;
-    color: white;
-    width:5%;
-    
-    display: inline;
-} 
 
-/* hover effect of navlist anchor element */ 
-#navlist a:hover { 
-    
-    opacity: 1;
-} 
+nav ul li p{
+  
+  display: inline-block;
+  list-style-type: none;
+  margin-left: -800px;
+  text-align: left;
+  font-size: large;
+  
+}
+nav ul li a {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  display: block;
+  font-size: small;
+  padding: 10px 0.76em;
+  text-decoration: none;
+  
+}
+
+nav ul li:first-child {
+  margin-right: 960px;
+  
+}
+nav ul li a.logo {
+  background-color: green;
+}
+nav ul li a:hover {
+  opacity: 1;
+}
